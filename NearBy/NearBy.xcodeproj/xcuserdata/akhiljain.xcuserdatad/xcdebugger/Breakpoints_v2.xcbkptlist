@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "94E9E0A2-F73D-4687-85CE-93EE12C0A745"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F9E34AB1-203E-4AA1-8022-81965D0AE689"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "didRecieveListOfVenues(venues:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "902E7C19-C6D7-4CB0-8B89-CAEE3EC01ADB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/AppInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "fetchListOfVenues(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "902E7C19-C6D7-4CB0-8B89-CAEE3EC01ADB - 6ebc8cc389a3fcdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "220">
+               </Location>
+               <Location
+                  uuid = "902E7C19-C6D7-4CB0-8B89-CAEE3EC01ADB - 6ebc8cc389a3fcdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "276">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2A37D1BF-AD4E-4F7F-BDE9-257C922CEF4C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/AppInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "fetchListOfVenues(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "2A37D1BF-AD4E-4F7F-BDE9-257C922CEF4C - 6ebc8cc389a3ff30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "296">
+               </Location>
+               <Location
+                  uuid = "2A37D1BF-AD4E-4F7F-BDE9-257C922CEF4C - 34e4cb8912e4df0d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "48">
+               </Location>
+               <Location
+                  uuid = "2A37D1BF-AD4E-4F7F-BDE9-257C922CEF4C - 6ebc8cc389a3ff30"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "152">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0F66AA58-670E-44AC-83EE-F742DC5B8A06"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/NearByApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "fetchListOfVenues(page:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0F66AA58-670E-44AC-83EE-F742DC5B8A06 - 45e9ebd325e73141"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearBy.NearByApiService.fetchListOfVenues(page: Swift.Int, completion: (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/NearByApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "256">
+               </Location>
+               <Location
+                  uuid = "0F66AA58-670E-44AC-83EE-F742DC5B8A06 - 45e9ebd325e73141"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearBy.NearByApiService.fetchListOfVenues(page: Swift.Int, completion: (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/NearByApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "344">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6CC32E02-5086-4221-9BB4-9E10197C2F97"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/NearByApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "fetchListOfVenues(page:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6CC32E02-5086-4221-9BB4-9E10197C2F97 - 1da854533df9251d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.NearByApiService.fetchListOfVenues(page: Swift.Int, completion: (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/NearByApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "448">
+               </Location>
+               <Location
+                  uuid = "6CC32E02-5086-4221-9BB4-9E10197C2F97 - 4f6482d2c4e70713"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.NearByApiService.fetchListOfVenues(page: Swift.Int, completion: (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/NearByApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "76">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94CB1607-7E92-4FCF-9A96-B3BDC2F2BB9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "NearBy/AppInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "fetchListOfVenues(for:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "94CB1607-7E92-4FCF-9A96-B3BDC2F2BB9E - 11776a5ad5a406eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "94CB1607-7E92-4FCF-9A96-B3BDC2F2BB9E - 6ebc8cc389a3fcfe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;NearBy.Venues&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in NearBy.AppInteractor.fetchListOfVenues(for: Swift.Int) -&gt; ()"
+                  moduleName = "NearBy"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/akhiljain/Desktop/Code/Growth/NearBy/NearBy/AppInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "19"
+                  endingLineNumber = "19"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

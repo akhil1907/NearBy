@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="NearByAppTableViewCell" customModule="NearBy" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="placeholdertext.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="OtU-pN-tli">
+                        <rect key="frame" x="8" y="9.6666666666666643" width="48" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="MUe-qz-zDo"/>
+                            <constraint firstAttribute="width" constant="48" id="wty-Dg-inu"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SD8-lm-IUw">
+                        <rect key="frame" x="64" y="8" width="274" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5t0-hS-dlm">
+                        <rect key="frame" x="64" y="37" width="274" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="5t0-hS-dlm" firstAttribute="leading" secondItem="OtU-pN-tli" secondAttribute="trailing" constant="8" id="2Dl-l8-4pJ"/>
+                    <constraint firstAttribute="bottom" secondItem="OtU-pN-tli" secondAttribute="bottom" constant="8" id="RgV-cv-Ddy"/>
+                    <constraint firstAttribute="trailing" secondItem="5t0-hS-dlm" secondAttribute="trailing" constant="8" id="RzS-vn-82w"/>
+                    <constraint firstItem="OtU-pN-tli" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="eDb-no-cnw"/>
+                    <constraint firstAttribute="trailing" secondItem="SD8-lm-IUw" secondAttribute="trailing" constant="8" id="gD3-wf-xw7"/>
+                    <constraint firstItem="SD8-lm-IUw" firstAttribute="leading" secondItem="OtU-pN-tli" secondAttribute="trailing" constant="8" id="gMB-vH-UDa"/>
+                    <constraint firstItem="5t0-hS-dlm" firstAttribute="top" secondItem="SD8-lm-IUw" secondAttribute="bottom" constant="8" id="jkT-9C-lhg"/>
+                    <constraint firstItem="5t0-hS-dlm" firstAttribute="top" secondItem="SD8-lm-IUw" secondAttribute="bottom" constant="8" id="mOM-Iy-zgw"/>
+                    <constraint firstItem="OtU-pN-tli" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="qVS-ZP-3k8"/>
+                    <constraint firstItem="SD8-lm-IUw" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="rAs-ON-C96"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="venueAddressLabel" destination="5t0-hS-dlm" id="uE0-YD-OMc"/>
+                <outlet property="venueImageView" destination="OtU-pN-tli" id="3uD-Pg-Jtk"/>
+                <outlet property="venueNameLable" destination="SD8-lm-IUw" id="DdO-Dt-OWn"/>
+            </connections>
+            <point key="canvasLocation" x="184.73282442748092" y="-1.4084507042253522"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholdertext.fill" catalog="system" width="78" height="128"/>
+    </resources>
+</document>
